@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro JS - Cap. 4 - Ex. 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Programa Verifica Velocidade</h1>
+
+    <form>
+        <p>
+            Velocidade Permitida:
+            <input type="number" name="velocidade-permitida" id="inVelocidadePermitida" min="0" step="0.01" required>
+        </p>
+
+        <p>
+            Velocidade do Condutor:
+            <input type="number" name="velocidade-do-condutor" id="inVelocidadeDoCondutor" min="0" step="0.01" required>
+        </p>
+
+        <input type="submit" value="Verificar Velocidader">
+
+        <input type="reset" value="Limpar Campos">
+    </form>
+
+    <h3 class="resposta__situacao"></h3>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#span-item {
+    margin-left: 50px;
+}
+
+.oculta {
+    display: none;
+}
+
+#inDetalhes {
+    width: 300px;
+}

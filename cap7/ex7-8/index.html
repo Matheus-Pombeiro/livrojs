@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro JS - Cap. 7 - Ex. 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Programa Caixa da Loja</h1>
+
+    <form>
+        <p>
+            Data de Vencimento:
+            <input type="date" name="DataVenc" id="inDataVenc" required autofocus>
+        </p>
+
+        <p>
+            Valor da Conta R$:
+            <input type="number" name="Valor" id="inValor" min="0" step="0.01" class="alinha-direita">
+            <input type="submit" value="Calcular Multa e Juros">
+        </p>
+
+        <p>
+            Valor da Multa R$:
+            <input type="number" name="Multa" id="outMulta" class="alinha-direita" readonly>
+        </p>
+
+        <p>
+            Valor do Juros R$:
+            <input type="number" name="Juros" id="outJuros" class="alinha-direita" readonly>
+        </p>
+
+        <p>
+            Total a Pagar R$:
+            <input type="number" name="Total" id="outTotal" class="alinha-direita" readonly>
+            <input type="reset" value="Nova Conta">
+        </p>
+    </form>
+
+    <h3 class="outDados"></h3>
+
+    <script src="main.js"></script>
+</body>
+</html>

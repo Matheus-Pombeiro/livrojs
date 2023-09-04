@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro JS - Cap. 2 - Ex. 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Farmácia JS</h1>
+
+    <form>
+        <p>
+            Medicamento:
+            <input type="text" name="titulo" id="inMedicamento" required>
+        </p>
+        <p>
+            Preço R$:
+            <input type="number" name="duracao" id="inPreco" min="0" step="0.01" required>
+        </p>
+        <input type="submit" value="Mostrar Promoção">
+    </form>
+
+    <h3 class="resposta__promocao"></h3>
+
+    <h3 class="resposta__valor-a-pagar"></h3>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro JS - Cap. 5 - Ex. 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Programa Contas do Mês</h1>
+
+    <form>
+        <p>
+            Descrição:
+            <input type="text" name="descricao" id="inDescricao" required>
+        </p>
+
+        <p>
+            Valor a Pagar R$:
+            <input type="number" name="valor" id="inValor" min="0" step="0.01" required>
+        </p>
+
+        <input type="submit" value="Registrar Conta">
+
+        <input type="reset" value="Limpar Campos">
+    </form>
+
+    <pre class="resposta__descricao__contas-a-pagar"></pre>
+
+    <pre class="resposta__quantidade__contas-a-pagar"></pre>
+
+    <script src="main.js"></script>
+</body>
+</html>
